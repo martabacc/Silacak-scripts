@@ -1,7 +1,7 @@
 import StringIO
 import csv
 
-scopusData=[]
+scopusDatas=[]
 
 
 bigArray= []
@@ -17,12 +17,12 @@ def mapToArray(strings, pushToThisPlease=[]):
         pushToThisPlease.append(str)
 
 def initiate():
-    with open('D:/Kerja Praktek/SILACAK/scopus/scimagojr_2015.csv', 'rU') as csvf:
+    with open('scopus/scimagojr_2015.csv', 'rU') as csvf:
         testreader = csv.reader(csvf, delimiter=';', quotechar='|')
         for row in testreader:
-            scopusData.append(row)
+            scopusDatas.append(row)
 
-    with open('C:/Users/rona/Downloads/test_data.csv', 'r') as csvfile:
+    with open('all_data.csv', 'r') as csvfile:
         testreader = csv.reader(csvfile, delimiter=';', quotechar='"')
         for row in testreader:
             bigArray.append(row)

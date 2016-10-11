@@ -1,13 +1,12 @@
 import StringIO
 import csv
 from filtering import *
-import array
+import sys
 from pprint import pprint
 # yang mau ditrace :
 # pub_id (1), pub_detilkodepub(2), pub_judul(15), pub_kata_kunci(16), pub_abstraksi(19), pub_halaman(22),
-
-initiate()
-
+CURSOR_UP_ONE = '\x1b[1A'
+ERASE_LINE = '\x1b[2K'
 def classify_SIT_JITT():
     for idx, data in enumerate(bigArray):
         if idx == 100: break
@@ -46,8 +45,40 @@ def classify_SIT_JITT():
                 else:
                     classified = "Lainnya"
 
-
         bigArray[35] = classified
 
 
-def classify# pprint(parsedWords)
+def classify_Scopus():
+    for idx, data in enumerate(bigArray):
+        if idx == 100: break
+
+        id = data[0]
+        detilkodepub = data[1]
+        judul = data[14].lower()
+        issue = data[21]
+
+        classified = ''
+        for idx2, scopusData in enumerate(scopusDatas):
+            #         checking JITT
+            titleIndex = 0
+            issnIndex = 2
+
+            if levenshtein(scopusData[0],judul) <= 10 :
+                classified = 'Jurnal Internasional Terindeks Scopus'
+                print '\nRecord %d recorded in scopus' %(idx)
+                break
+
+            if idx2 % 1000 == 0:
+                sys.stdout.write('\rArticle ' + str(idx+1) +' compared to ' + str(idx2) + ' scopus data')
+
+        if classified=='' :
+            print('\r\nRecord '+ str(idx+1) +' bukan Jurnal Internasional Terindeks')
+
+        if idx % 50 == 0 and idx!=0:
+            sys.stdout.write('\nProcessed %d data' %(idx))
+
+
+
+initiate()
+
+classify_Scopus()
