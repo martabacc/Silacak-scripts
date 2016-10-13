@@ -1,0 +1,30 @@
+---------------------------------------------------------------------------------------------------
+Program dimulai 13 October 2016 21:33:57
+---------------------------------------------------------------------------------------------------
+Record 1 bukan Jurnal Internasional Terindeks
+Record 2 bukan Jurnal Internasional Terindeks
+Record 3 bukan Jurnal Internasional Terindeks
+Record 4 bukan Jurnal Internasional Terindeks
+Record 5 bukan Jurnal Internasional Terindeks
+Record 6 bukan Jurnal Internasional Terindeks
+Record 7 bukan Jurnal Internasional Terindeks
+Record 8 bukan Jurnal Internasional Terindeks
+Record 9 bukan Jurnal Internasional Terindeks
+Record 10 bukan Jurnal Internasional Terindeks
+Record 11 bukan Jurnal Internasional Terindeks
+Record 12 bukan Jurnal Internasional Terindeks
+Record 13 bukan Jurnal Internasional Terindeks
+Record 14 bukan Jurnal Internasional Terindeks
+Record 15 bukan Jurnal Internasional Terindeks
+Record 16 bukan Jurnal Internasional Terindeks
+Record 17 bukan Jurnal Internasional Terindeks
+Record 18 bukan Jurnal Internasional Terindeks
+Record 19 bukan Jurnal Internasional Terindeks
+Record 20 bukan Jurnal Internasional Terindeks
+
+---------------------------------------------------------------------------------------------------
+Program berakhir 13 October 2016 21:34:17
+---------------------------------------------------------------------------------------------------
+Program berjalan selama 0 jam 00 menit 20.251 detik.
+Membandingkan 29714 data jurnal dengan 17476 data Scopus
+Terdapat 0 jurnal yang terakreditasi internasional 2015

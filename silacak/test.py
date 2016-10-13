@@ -86,23 +86,28 @@ def classify_Scopus(year):
 
     for idx, data in enumerate(bigArray):
 
-        # if idx==150 : break
+        if idx==20 : break
 
         id = data[0]
         detilkodepub = data[1]
         judul = data[14].lower()
         issue = data[21]
-
-        classified = ''
+        print 'Data on database : %s' % (judul)
+        classified = False
         ptr = 0
-        for idx2, scopusData in enumerate(scopusDatas):
+
+
+        for idx2 in range(0, len(scopusDatas)):
+            scopusData = scopusDatas[idx2]
             titleIndex = 0
-            # if idx2 == 50 : break
+            if idx2 == 5 : break
+            scopusTitle = str(scopusData[titleIndex]).lower()
 
-            if levenshtein( scopusData[titleIndex].lower() , judul) <= 10 :
-                classified = 'Jurnal Internasional Terindeks Scopus'
+            #
+            if levenshtein( scopusTitle , judul) <= 10 :
+                classified = True
 
-                print 'Process %d : Record %d recorded in scopus' %(year, idx)
+                print '[MATCH] Data on scopus : %s' %(scopusTitle)
                 ptr+=1
                 log.write('\nRecord '+ str(idx+1) +' recorded in scopus----------------------')
                 break
@@ -110,9 +115,11 @@ def classify_Scopus(year):
             # if idx2 % 5000 == 0:
                 # sys.stdout.write('\rArticle ' + str(idx+1) +' compared to ' + str(idx2) + ' scopus data')
 
-        if classified=='' :
+        if classified is False :
             # sys.stdout.write('\rRecord '+ str(idx+1) +' bukan Jurnal Internasional Terindeks\n')
             log.write('Record '+ str(idx+1) +' bukan Jurnal Internasional Terindeks\n')
+            print '[%d %d] Data on scopus : %s' %(idx,idx2, scopusTitle )
+            time.sleep(1)
 
         if idx % 50 == 0 and idx!=0:
             print('Process %d comparing to %d data' %(year, idx))
@@ -128,3 +135,6 @@ def classify_Scopus(year):
     log.write('\nTerdapat '+ str(ptr) + ' jurnal yang terakreditasi internasional ' + str(year))
 
     log.close()
+
+initiate()
+classify_Scopus(2015)
