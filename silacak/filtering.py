@@ -91,3 +91,14 @@ def secondsToStr(t):
 
 def timeToStr(t):
     return t.strftime("%d %B %Y %H:%M:%S")
+
+# only for debugging
+
+def returnStartPoint(year):
+    if year==2009 : return 2550
+    elif year==2010 : return 2300
+    elif year==2011 :return 2150
+    elif year=2012 : return 2050
+    elif year==2013 : return 2000
+    elif year==2014 : return 2050
+    elif year == 2015 : return 2150

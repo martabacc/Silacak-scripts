@@ -85,40 +85,45 @@ def classify_Scopus(year):
 
 
     for idx, data in enumerate(bigArray):
-        id = data[0]
-        detilkodepub = data[1]
-        judul = data[14].lower()
-        issue = data[21]
-        # print 'Data on database : %s' % (judul)
-        classified = False
-        ptr = 0
-        for idx2, scopusData in enumerate(scopusDatas):
-            # print idx2
-            # print classified
-            scopusData = scopusDatas[idx2]
-            titleIndex = 0
-            scopusTitle = str(scopusData[titleIndex]).lower()
 
-            if abs( len(scopusTitle) - len(judul) ) < 15:
-                if levenshtein( scopusTitle , judul) <= 10 :
-                    classified = True
-                    print '[MATCH] Data %d on scopus : %s [Row %d, on row Scopus %d]' %(year, scopusTitle, idx, idx2)
-                    log.write('\nData '+str(year)+' on scopus : [Row '+str(idx)+', on row Scopus '+str(idx2))
-                    log.write('\nJudul Jurnal : '+judul)
-                    log.write('\nJudul di Scopus : '+scopusTitle)
-                    break
-            else :
-                ptr += 1
+        if idx >= returnStartPoint(year) :
+            id = data[0]
+            detilkodepub = data[1]
+            judul = data[14].lower()
+            issue = data[21]
+            # print 'Data on database : %s' % (judul)
+            classified = False
+            ptr = 0
+            for idx2, scopusData in enumerate(scopusDatas):
+                # print idx2
+                # print classified
+                scopusData = scopusDatas[idx2]
+                titleIndex = 0
+                scopusTitle = str(scopusData[titleIndex]).lower()
 
-        time.sleep(10)
+                if abs( len(scopusTitle) - len(judul) ) < 15:
+                    maxDistance = 10
+                    if len(scopusTitle) <= 15 : maxDistance = 5
 
-        # print ('%d / %d document are excluded from filtering'%(ptr, len(scopusDatas)) )
-        # if classified is False :
-        #     log.write('Record '+ str(idx+1) +' bukan Jurnal Internasional Terindeks\n')
+                    elif levenshtein( scopusTitle , judul) <= maxDistance :
+                        classified = True
+                        print '[MATCH] Data %d on scopus : %s [Row %d, on row Scopus %d]' %(year, scopusTitle, idx, idx2)
+                        log.write('\nData '+str(year)+' on scopus : [Row '+str(idx)+', on row Scopus '+str(idx2))
+                        log.write('\nJudul Jurnal : '+judul)
+                        log.write('\nJudul di Scopus : '+scopusTitle)
+                        break
+                else :
+                    ptr += 1
+
+            time.sleep(10)
+
+            # print ('%d / %d document are excluded from filtering'%(ptr, len(scopusDatas)) )
+            # if classified is False :
+            #     log.write('Record '+ str(idx+1) +' bukan Jurnal Internasional Terindeks\n')
 
 
-        if idx % 50 == 0 and idx!=0:
-            print('Process %d comparing to %d data' %(year, idx))
+            if idx % 50 == 0 and idx!=0:
+                print('Process %d comparing to %d data' %(year, idx))
 
     endTime = time.time()
     log.write('\n---------------------------------------------------------------------------------------------------')

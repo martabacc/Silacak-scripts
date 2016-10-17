@@ -1,0 +1,397 @@
+Starting Scopus 2015
+Starting Scopus 2014
+Starting Scopus 2013
+Starting Scopus 2012
+Starting Scopus 2011
+Starting Scopus 2010
+Starting Scopus 2009
+Process 2009 comparing to 50 data
+Process 2010 comparing to 50 data
+Process 2011 comparing to 50 data
+Process 2015 comparing to 50 data
+Process 2012 comparing to 50 data
+Process 2013 comparing to 50 data
+Process 2014 comparing to 50 data
+Process 2009 comparing to 100 data
+Process 2010 comparing to 100 data
+Process 2015 comparing to 100 data
+Process 2011 comparing to 100 data
+Process 2012 comparing to 100 data
+Process 2014 comparing to 100 data
+Process 2013 comparing to 100 data
+[MATCH] Data 2009 on scopus : nature genetics [Row 136, on row Scopus 5]
+[MATCH] Data 2010 on scopus : nature genetics [Row 136, on row Scopus 3]
+Process 2009 comparing to 150 data
+[MATCH] Data 2015 on scopus : nature genetics [Row 136, on row Scopus 11]
+[MATCH] Data 2011 on scopus : nature genetics [Row 136, on row Scopus 6]
+Process 2010 comparing to 150 data
+[MATCH] Data 2012 on scopus : nature genetics [Row 136, on row Scopus 5]
+[MATCH] Data 2014 on scopus : nature genetics [Row 136, on row Scopus 11]
+[MATCH] Data 2013 on scopus : nature genetics [Row 136, on row Scopus 6]
+Process 2015 comparing to 150 data
+Process 2011 comparing to 150 data
+Process 2012 comparing to 150 data
+Process 2014 comparing to 150 data
+Process 2013 comparing to 150 data
+Process 2009 comparing to 200 data
+[MATCH] Data 2009 on scopus : materials today [Row 202, on row Scopus 113]
+Process 2010 comparing to 200 data
+[MATCH] Data 2010 on scopus : nano today [Row 202, on row Scopus 174]
+Process 2015 comparing to 200 data
+[MATCH] Data 2015 on scopus : acs nano [Row 202, on row Scopus 143]
+Process 2011 comparing to 200 data
+[MATCH] Data 2011 on scopus : nano today [Row 202, on row Scopus 127]
+Process 2009 comparing to 250 data
+Process 2014 comparing to 200 data
+Process 2012 comparing to 200 data
+[MATCH] Data 2014 on scopus : nano today [Row 202, on row Scopus 143]
+[MATCH] Data 2012 on scopus : nano today [Row 202, on row Scopus 113]
+Process 2013 comparing to 200 data
+[MATCH] Data 2013 on scopus : nano today [Row 202, on row Scopus 141]
+Process 2010 comparing to 250 data
+Process 2009 comparing to 300 data
+Process 2015 comparing to 250 data
+Process 2011 comparing to 250 data
+Process 2014 comparing to 250 data
+Process 2012 comparing to 250 data
+Process 2013 comparing to 250 data
+Process 2010 comparing to 300 data
+Process 2009 comparing to 350 data
+Process 2015 comparing to 300 data
+Process 2011 comparing to 300 data
+Process 2012 comparing to 300 data
+Process 2014 comparing to 300 data
+Process 2013 comparing to 300 data
+Process 2010 comparing to 350 data
+Process 2009 comparing to 400 data
+[MATCH] Data 2009 on scopus : coastal management [Row 417, on row Scopus 6256]
+Process 2015 comparing to 350 data
+Process 2011 comparing to 350 data
+Process 2012 comparing to 350 data
+Process 2014 comparing to 350 data
+Process 2010 comparing to 400 data
+Process 2013 comparing to 350 data
+Process 2009 comparing to 450 data
+[MATCH] Data 2010 on scopus : coastal management [Row 417, on row Scopus 5696]
+Process 2015 comparing to 400 data
+Process 2011 comparing to 400 data
+[MATCH] Data 2015 on scopus : coastal management [Row 417, on row Scopus 6344]
+[MATCH] Data 2011 on scopus : coastal management [Row 417, on row Scopus 6507]
+Process 2010 comparing to 450 data
+Process 2012 comparing to 400 data
+Process 2014 comparing to 400 data
+Process 2009 comparing to 500 data
+Process 2013 comparing to 400 data
+[MATCH] Data 2012 on scopus : coastal management [Row 417, on row Scopus 6814]
+[MATCH] Data 2014 on scopus : coastal management [Row 417, on row Scopus 9229]
+[MATCH] Data 2013 on scopus : coastal management [Row 417, on row Scopus 8807]
+Process 2015 comparing to 450 data
+Process 2011 comparing to 450 data
+Process 2010 comparing to 500 data
+Process 2012 comparing to 450 data
+Process 2009 comparing to 550 data
+Process 2014 comparing to 450 data
+Process 2013 comparing to 450 data
+Process 2015 comparing to 500 data
+Process 2011 comparing to 500 data
+Process 2009 comparing to 600 data
+Process 2010 comparing to 550 data
+Process 2012 comparing to 500 data
+Process 2014 comparing to 500 data
+[MATCH] Data 2009 on scopus : ferroelectrics [Row 614, on row Scopus 8950]
+Process 2013 comparing to 500 data
+Process 2015 comparing to 550 data
+Process 2009 comparing to 650 data
+Process 2011 comparing to 550 data
+Process 2010 comparing to 600 data
+Process 2012 comparing to 550 data
+Process 2014 comparing to 550 data
+[MATCH] Data 2010 on scopus : ferroelectrics [Row 614, on row Scopus 9068]
+Process 2013 comparing to 550 data
+Process 2009 comparing to 700 data
+Process 2015 comparing to 600 data
+Process 2011 comparing to 600 data
+Process 2010 comparing to 650 data
+[MATCH] Data 2015 on scopus : ferroelectrics [Row 614, on row Scopus 13359]
+[MATCH] Data 2011 on scopus : ferroelectrics [Row 614, on row Scopus 11133]
+Process 2014 comparing to 600 data
+Process 2012 comparing to 600 data
+Process 2009 comparing to 750 data
+Process 2013 comparing to 600 data
+[MATCH] Data 2014 on scopus : ferroelectrics [Row 614, on row Scopus 12516]
+[MATCH] Data 2012 on scopus : ferroelectrics [Row 614, on row Scopus 11974]
+[MATCH] Data 2013 on scopus : ferroelectrics [Row 614, on row Scopus 12414]
+Process 2015 comparing to 650 data
+Process 2011 comparing to 650 data
+Process 2010 comparing to 700 data
+[MATCH] Data 2009 on scopus : circulation [Row 789, on row Scopus 130]
+Process 2009 comparing to 800 data
+Process 2014 comparing to 650 data
+Process 2012 comparing to 650 data
+Process 2013 comparing to 650 data
+Process 2010 comparing to 750 data
+Process 2015 comparing to 700 data
+Process 2011 comparing to 700 data
+Process 2009 comparing to 850 data
+Process 2014 comparing to 700 data
+Process 2012 comparing to 700 data
+[MATCH] Data 2010 on scopus : circulation [Row 789, on row Scopus 157]
+Process 2013 comparing to 700 data
+Process 2010 comparing to 800 data
+Process 2015 comparing to 750 data
+Process 2011 comparing to 750 data
+Process 2009 comparing to 900 data
+Process 2014 comparing to 750 data
+Process 2012 comparing to 750 data
+[MATCH] Data 2015 on scopus : circulation [Row 789, on row Scopus 117]
+Process 2010 comparing to 850 data
+[MATCH] Data 2011 on scopus : circulation [Row 789, on row Scopus 126]
+Process 2013 comparing to 750 data
+Process 2009 comparing to 950 data
+Process 2015 comparing to 800 data
+Process 2011 comparing to 800 data
+[MATCH] Data 2014 on scopus : circulation [Row 789, on row Scopus 138]
+[MATCH] Data 2012 on scopus : circulation [Row 789, on row Scopus 127]
+[MATCH] Data 2013 on scopus : circulation [Row 789, on row Scopus 120]
+Process 2014 comparing to 800 data
+Process 2012 comparing to 800 data
+Process 2010 comparing to 900 data
+Process 2009 comparing to 1000 data
+Process 2015 comparing to 850 data
+Process 2013 comparing to 800 data
+Process 2011 comparing to 850 data
+Process 2009 comparing to 1050 data
+Process 2014 comparing to 850 data
+Process 2010 comparing to 950 data
+Process 2012 comparing to 850 data
+Process 2013 comparing to 850 data
+Process 2015 comparing to 900 data
+Process 2011 comparing to 900 data
+Process 2009 comparing to 1100 data
+Process 2010 comparing to 1000 data
+Process 2014 comparing to 900 data
+Process 2012 comparing to 900 data
+Process 2015 comparing to 950 data
+Process 2013 comparing to 900 data
+Process 2011 comparing to 950 data
+[MATCH] Data 2009 on scopus : nature [Row 1145, on row Scopus 23]
+Process 2009 comparing to 1150 data
+[MATCH] Data 2009 on scopus : nature genetics [Row 1156, on row Scopus 5]
+[MATCH] Data 2009 on scopus : nonlinearity [Row 1163, on row Scopus 2683]
+[MATCH] Data 2009 on scopus : nonlinearity [Row 1164, on row Scopus 2683]
+Process 2010 comparing to 1050 data
+Process 2014 comparing to 950 data
+Process 2012 comparing to 950 data
+Process 2015 comparing to 1000 data
+Process 2009 comparing to 1200 data
+Process 2013 comparing to 950 data
+Process 2011 comparing to 1000 data
+Process 2010 comparing to 1100 data
+[MATCH] Data 2009 on scopus : cell [Row 1235, on row Scopus 3]
+[MATCH] Data 2009 on scopus : plant cell [Row 1240, on row Scopus 105]
+Process 2009 comparing to 1250 data
+Process 2014 comparing to 1000 data
+Process 2012 comparing to 1000 data
+Process 2015 comparing to 1050 data
+Process 2011 comparing to 1050 data
+Process 2013 comparing to 1000 data
+[MATCH] Data 2010 on scopus : nature [Row 1145, on row Scopus 18]
+Process 2010 comparing to 1150 data
+Process 2009 comparing to 1300 data
+[MATCH] Data 2010 on scopus : nature genetics [Row 1156, on row Scopus 3]
+[MATCH] Data 2010 on scopus : nonlinearity [Row 1163, on row Scopus 1860]
+[MATCH] Data 2010 on scopus : nonlinearity [Row 1164, on row Scopus 1860]
+Process 2015 comparing to 1100 data
+[MATCH] Data 2009 on scopus : cell [Row 1345, on row Scopus 3]
+Process 2014 comparing to 1050 data
+Process 2009 comparing to 1350 data
+Process 2012 comparing to 1050 data
+Process 2011 comparing to 1100 data
+Process 2010 comparing to 1200 data
+Process 2013 comparing to 1050 data
+Process 2009 comparing to 1400 data
+[MATCH] Data 2015 on scopus : nature [Row 1145, on row Scopus 12]
+[MATCH] Data 2010 on scopus : cell [Row 1235, on row Scopus 5]
+Process 2015 comparing to 1150 data
+[MATCH] Data 2010 on scopus : plant cell [Row 1240, on row Scopus 133]
+[MATCH] Data 2011 on scopus : nature [Row 1145, on row Scopus 12]
+Process 2014 comparing to 1100 data
+[MATCH] Data 2015 on scopus : nature genetics [Row 1156, on row Scopus 11]
+Process 2011 comparing to 1150 data
+Process 2012 comparing to 1100 data
+Process 2010 comparing to 1250 data
+[MATCH] Data 2009 on scopus : molecular cell [Row 1437, on row Scopus 14]
+[MATCH] Data 2015 on scopus : oncotarget [Row 1163, on row Scopus 1070]
+[MATCH] Data 2015 on scopus : oncotarget [Row 1164, on row Scopus 1070]
+[MATCH] Data 2009 on scopus : cell [Row 1439, on row Scopus 3]
+[MATCH] Data 2011 on scopus : nature genetics [Row 1156, on row Scopus 6]
+Process 2009 comparing to 1450 data
+[MATCH] Data 2011 on scopus : iowa law review [Row 1163, on row Scopus 1982]
+[MATCH] Data 2011 on scopus : iowa law review [Row 1164, on row Scopus 1982]
+Process 2013 comparing to 1100 data
+Process 2010 comparing to 1300 data
+Process 2015 comparing to 1200 data
+[MATCH] Data 2014 on scopus : nature [Row 1145, on row Scopus 13]
+[MATCH] Data 2012 on scopus : nature [Row 1145, on row Scopus 19]
+Process 2014 comparing to 1150 data
+Process 2011 comparing to 1200 data
+Process 2012 comparing to 1150 data
+[MATCH] Data 2014 on scopus : nature genetics [Row 1156, on row Scopus 11]
+Process 2009 comparing to 1500 data
+[MATCH] Data 2012 on scopus : nature genetics [Row 1156, on row Scopus 5]
+[MATCH] Data 2013 on scopus : nature [Row 1145, on row Scopus 11]
+[MATCH] Data 2014 on scopus : oncotarget [Row 1163, on row Scopus 927]
+[MATCH] Data 2014 on scopus : oncotarget [Row 1164, on row Scopus 927]
+Process 2013 comparing to 1150 data
+[MATCH] Data 2012 on scopus : oncotarget [Row 1163, on row Scopus 894]
+[MATCH] Data 2012 on scopus : oncotarget [Row 1164, on row Scopus 894]
+[MATCH] Data 2013 on scopus : nature genetics [Row 1156, on row Scopus 6]
+[MATCH] Data 2010 on scopus : cell [Row 1345, on row Scopus 5]
+[MATCH] Data 2015 on scopus : title [Row 1235, on row Scopus 0]
+Process 2010 comparing to 1350 data
+[MATCH] Data 2015 on scopus : elife [Row 1240, on row Scopus 179]
+[MATCH] Data 2013 on scopus : oncotarget [Row 1163, on row Scopus 648]
+[MATCH] Data 2013 on scopus : oncotarget [Row 1164, on row Scopus 648]
+[MATCH] Data 2011 on scopus : cell [Row 1235, on row Scopus 5]
+[MATCH] Data 2011 on scopus : plant cell [Row 1240, on row Scopus 174]
+Process 2015 comparing to 1250 data
+Process 2011 comparing to 1250 data
+Process 2009 comparing to 1550 data
+Process 2014 comparing to 1200 data
+Process 2012 comparing to 1200 data
+Process 2010 comparing to 1400 data
+Process 2013 comparing to 1200 data
+[MATCH] Data 2009 on scopus : erosion control [Row 1580, on row Scopus 22701]
+Process 2015 comparing to 1300 data
+[MATCH] Data 2014 on scopus : cell [Row 1235, on row Scopus 5]
+Process 2011 comparing to 1300 data
+[MATCH] Data 2014 on scopus : elife [Row 1240, on row Scopus 201]
+Process 2009 comparing to 1600 data
+[MATCH] Data 2010 on scopus : chemical reviews [Row 1437, on row Scopus 15]
+[MATCH] Data 2012 on scopus : cell [Row 1235, on row Scopus 6]
+[MATCH] Data 2010 on scopus : cell [Row 1439, on row Scopus 5]
+[MATCH] Data 2012 on scopus : plant cell [Row 1240, on row Scopus 166]
+Process 2014 comparing to 1250 data
+Process 2010 comparing to 1450 data
+Process 2012 comparing to 1250 data
+[MATCH] Data 2013 on scopus : cell [Row 1235, on row Scopus 3]
+[MATCH] Data 2013 on scopus : brain [Row 1240, on row Scopus 188]
+[MATCH] Data 2015 on scopus : title [Row 1345, on row Scopus 0]
+Process 2013 comparing to 1250 data
+Process 2015 comparing to 1350 data
+[MATCH] Data 2011 on scopus : cell [Row 1345, on row Scopus 5]
+Process 2011 comparing to 1350 data
+Process 2009 comparing to 1650 data
+Process 2014 comparing to 1300 data
+Process 2010 comparing to 1500 data
+Process 2012 comparing to 1300 data
+Process 2015 comparing to 1400 data
+Process 2013 comparing to 1300 data
+Process 2011 comparing to 1400 data
+Process 2009 comparing to 1700 data
+[MATCH] Data 2014 on scopus : cell [Row 1345, on row Scopus 5]
+[MATCH] Data 2012 on scopus : cell [Row 1345, on row Scopus 6]
+Process 2014 comparing to 1350 data
+Process 2012 comparing to 1350 data
+[MATCH] Data 2015 on scopus : nature [Row 1437, on row Scopus 12]
+[MATCH] Data 2015 on scopus : title [Row 1439, on row Scopus 0]
+Process 2010 comparing to 1550 data
+[MATCH] Data 2011 on scopus : chemical reviews [Row 1437, on row Scopus 10]
+[MATCH] Data 2011 on scopus : cell [Row 1439, on row Scopus 5]
+Process 2015 comparing to 1450 data
+[MATCH] Data 2013 on scopus : cell [Row 1345, on row Scopus 3]
+Process 2013 comparing to 1350 data
+Process 2011 comparing to 1450 data
+Process 2009 comparing to 1750 data
+[MATCH] Data 2010 on scopus : erosion control [Row 1580, on row Scopus 24514]
+Process 2014 comparing to 1400 data
+Process 2012 comparing to 1400 data
+Process 2010 comparing to 1600 data
+Process 2013 comparing to 1400 data
+Process 2015 comparing to 1500 data
+Process 2011 comparing to 1500 data
+Process 2009 comparing to 1800 data
+[MATCH] Data 2014 on scopus : nature [Row 1437, on row Scopus 13]
+[MATCH] Data 2014 on scopus : cell [Row 1439, on row Scopus 5]
+[MATCH] Data 2012 on scopus : chemical reviews [Row 1437, on row Scopus 10]
+[MATCH] Data 2012 on scopus : cell [Row 1439, on row Scopus 6]
+Process 2014 comparing to 1450 data
+Process 2012 comparing to 1450 data
+[MATCH] Data 2013 on scopus : chemical reviews [Row 1437, on row Scopus 10]
+[MATCH] Data 2013 on scopus : cell [Row 1439, on row Scopus 3]
+Process 2013 comparing to 1450 data
+Process 2010 comparing to 1650 data
+Process 2009 comparing to 1850 data
+Process 2015 comparing to 1550 data
+Process 2011 comparing to 1550 data
+Process 2014 comparing to 1500 data
+Process 2012 comparing to 1500 data
+[MATCH] Data 2015 on scopus : erosion control [Row 1580, on row Scopus 27825]
+Process 2010 comparing to 1700 data
+[MATCH] Data 2011 on scopus : erosion control [Row 1580, on row Scopus 26015]
+Process 2013 comparing to 1500 data
+Process 2009 comparing to 1900 data
+Process 2015 comparing to 1600 data
+Process 2011 comparing to 1600 data
+Process 2014 comparing to 1550 data
+Process 2012 comparing to 1550 data
+Process 2009 comparing to 1950 data
+Process 2010 comparing to 1750 data
+Process 2013 comparing to 1550 data
+Process 2015 comparing to 1650 data
+[MATCH] Data 2014 on scopus : erosion control [Row 1580, on row Scopus 28216]
+[MATCH] Data 2012 on scopus : erosion control [Row 1580, on row Scopus 27503]
+Process 2011 comparing to 1650 data
+[MATCH] Data 2013 on scopus : erosion control [Row 1580, on row Scopus 28095]
+Process 2014 comparing to 1600 data
+Process 2010 comparing to 1800 data
+Process 2012 comparing to 1600 data
+Process 2009 comparing to 2000 data
+Process 2013 comparing to 1600 data
+Process 2015 comparing to 1700 data
+Process 2011 comparing to 1700 data
+Process 2010 comparing to 1850 data
+Process 2009 comparing to 2050 data
+Process 2014 comparing to 1650 data
+Process 2012 comparing to 1650 data
+Process 2013 comparing to 1650 data
+Process 2015 comparing to 1750 data
+Process 2011 comparing to 1750 data
+Process 2009 comparing to 2100 data
+Process 2010 comparing to 1900 data
+Process 2014 comparing to 1700 data
+Process 2012 comparing to 1700 data
+Process 2015 comparing to 1800 data
+Process 2013 comparing to 1700 data
+Process 2011 comparing to 1800 data
+Process 2009 comparing to 2150 data
+Process 2010 comparing to 1950 data
+Process 2014 comparing to 1750 data
+Process 2012 comparing to 1750 data
+[MATCH] Data 2009 on scopus : nature [Row 2198, on row Scopus 23]
+Process 2009 comparing to 2200 data
+Process 2015 comparing to 1850 data
+Process 2011 comparing to 1850 data
+Process 2013 comparing to 1750 data
+Process 2010 comparing to 2000 data
+Process 2014 comparing to 1800 data
+Process 2012 comparing to 1800 data
+Process 2009 comparing to 2250 data
+Process 2015 comparing to 1900 data
+Process 2013 comparing to 1800 data
+Process 2011 comparing to 1900 data
+Process 2010 comparing to 2050 data
+Process 2009 comparing to 2300 data
+Process 2014 comparing to 1850 data
+Process 2012 comparing to 1850 data
+Process 2015 comparing to 1950 data
+Process 2011 comparing to 1950 data
+Process 2013 comparing to 1850 data
+Process 2010 comparing to 2100 data
+Process 2009 comparing to 2350 data
+Process 2014 comparing to 1900 data
+Process 2012 comparing to 1900 data
+xProcess 2015 comparing to 2000 data
+Process 2011 comparing to 2000 data
+Process 2010 comparing to 2150 data
+Process 2013 comparing to 1900 data
