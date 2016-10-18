@@ -86,7 +86,9 @@ def classify_Scopus(year):
 
     for idx, data in enumerate(bigArray):
 
+
         if idx >= returnStartPoint(year) :
+            # print ('processing now')
             id = data[0]
             detilkodepub = data[1]
             judul = data[14].lower()
