@@ -16,7 +16,7 @@ class myThread (threading.Thread):
 
     def run(self):
         print "Starting " + self.name
-        # process_data(self.name, self.q)
+
         classify_Scopus(self.year)
         print "Exiting " + self.name
 
@@ -27,6 +27,7 @@ year = [2015,2014,2013,2012,2011,2010,2009]
 queueLock = threading.Lock()
 threads = []
 threadID = 1
+
 
 if __name__ == "__main__":
 
