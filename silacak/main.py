@@ -28,9 +28,6 @@ threadID = 1
 
 if __name__ == "__main__":
 
-    # counting the time
-
-    initiate()
     # pushing datas to array, declare comparing array
     queueLock = threading.Lock()
 

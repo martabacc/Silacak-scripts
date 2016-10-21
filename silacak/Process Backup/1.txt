@@ -395,3 +395,392 @@ xProcess 2015 comparing to 2000 data
 Process 2011 comparing to 2000 data
 Process 2010 comparing to 2150 data
 Process 2013 comparing to 1900 data
+----------------------------------------
+Process 2009 comparing to 2550 data
+Process 2013 comparing to 2000 data
+Process 2012 comparing to 2050 data
+Process 2015 comparing to 2150 data
+Process 2011 comparing to 2150 data
+Process 2014 comparing to 2050 data
+Process 2010 comparing to 2300 data
+[MATCH] Data 2011 on scopus : advances in natural and applied sciences [Row 2172, on row Scopus 8782]
+[MATCH] Data 2015 on scopus : advances in natural and applied sciences [Row 2172, on row Scopus 21640]
+[MATCH] Data 2009 on scopus : american journal of science [Row 2599, on row Scopus 1062]
+Process 2009 comparing to 2600 data
+[MATCH] Data 2009 on scopus : economic journal [Row 2601, on row Scopus 611]
+[MATCH] Data 2011 on scopus : economic journal [Row 2198, on row Scopus 287]
+[MATCH] Data 2015 on scopus : economic journal [Row 2198, on row Scopus 504]
+Process 2011 comparing to 2200 data
+Process 2015 comparing to 2200 data
+Process 2010 comparing to 2350 data
+Process 2014 comparing to 2100 data
+Process 2012 comparing to 2100 data
+Process 2013 comparing to 2050 data
+Process 2012 comparing to 550 data
+Process 2009 comparing to 700 data
+Process 2009 comparing to 2650 data
+Process 2010 comparing to 2400 data
+Process 2015 comparing to 2250 data
+Process 2011 comparing to 2250 data
+Process 2014 comparing to 2150 data
+Process 2012 comparing to 2150 data
+Process 2013 comparing to 2100 data
+Process 2009 comparing to 2700 data
+[MATCH] Data 2012 on scopus : advances in natural and applied sciences [Row 2172, on row Scopus 10511]
+[MATCH] Data 2014 on scopus : advances in natural and applied sciences [Row 2172, on row Scopus 20551]
+[MATCH] Data 2010 on scopus : american journal of sociology [Row 2446, on row Scopus 261]
+Process 2010 comparing to 2450 data
+Process 2013 comparing to 550 data
+Process 2014 comparing to 550 data
+Process 2015 comparing to 2300 data
+Process 2011 comparing to 2300 data
+[MATCH] Data 2012 on scopus : econometric theory [Row 2198, on row Scopus 157]
+[MATCH] Data 2014 on scopus : economic journal [Row 2198, on row Scopus 232]
+Process 2012 comparing to 2200 data
+Process 2014 comparing to 2200 data
+Process 2011 comparing to 600 data
+Process 2013 comparing to 2150 data
+Process 2010 comparing to 650 data
+Process 2009 comparing to 2750 data
+Process 2010 comparing to 2500 data
+[MATCH] Data 2013 on scopus : advances in natural and applied sciences [Row 2172, on row Scopus 20770]
+Process 2015 comparing to 2350 data
+[MATCH] Data 2009 on scopus : texas law review [Row 2792, on row Scopus 3038]
+Process 2011 comparing to 2350 data
+Process 2012 comparing to 2250 data
+Process 2014 comparing to 2250 data
+Process 2009 comparing to 2800 data
+[MATCH] Data 2013 on scopus : economic journal [Row 2198, on row Scopus 303]
+Process 2013 comparing to 2200 data
+Process 2010 comparing to 2550 data
+[MATCH] Data 2009 on scopus : journal of finance [Row 2836, on row Scopus 32]
+Process 2009 comparing to 2850 data
+Process 2011 : Record 614 recorded in scopus
+Process 2015 comparing to 2400 data
+Process 2011 comparing to 2400 data
+Process 2012 comparing to 2300 data
+Process 2014 comparing to 2300 data
+[MATCH] Data 2009 on scopus : studia linguistica [Row 2872, on row Scopus 9846]
+Process 2013 comparing to 2250 data
+[MATCH] Data 2010 on scopus : american journal of science [Row 2599, on row Scopus 932]
+Process 2010 comparing to 2600 data
+[MATCH] Data 2010 on scopus : economic journal [Row 2601, on row Scopus 453]
+Process 2015 comparing to 600 data
+Process 2009 comparing to 2900 data
+[MATCH] Data 2015 on scopus : american journal of sociology [Row 2446, on row Scopus 377]
+[MATCH] Data 2011 on scopus : american journal of sociology [Row 2446, on row Scopus 235]
+Process 2015 comparing to 2450 data
+Process 2011 comparing to 2450 data
+Process 2014 comparing to 2350 data
+Process 2012 comparing to 2350 data
+Process 2010 comparing to 2650 data
+Process 2013 comparing to 2300 data
+Process 2009 comparing to 2950 data
+Process 2015 comparing to 2500 data
+Process 2011 comparing to 2500 data
+Process 2014 comparing to 2400 data
+Process 2012 comparing to 2400 data
+Process 2010 comparing to 2700 data
+Process 2015 : Record 614 recorded in scopus
+Process 2013 comparing to 2350 data
+Process 2009 comparing to 3000 data
+Process 2012 comparing to 600 data
+[MATCH] Data 2009 on scopus : acta mathematica [Row 3018, on row Scopus 111]
+Process 2015 comparing to 2550 data
+Process 2011 comparing to 2550 data
+Process 2009 comparing to 750 data
+[MATCH] Data 2014 on scopus : american journal of sociology [Row 2446, on row Scopus 193]
+[MATCH] Data 2012 on scopus : american journal of sociology [Row 2446, on row Scopus 254]
+Process 2010 comparing to 2750 data
+Process 2014 comparing to 2450 data
+Process 2012 comparing to 2450 data
+Process 2009 comparing to 3050 data
+Process 2013 comparing to 2400 data
+[MATCH] Data 2015 on scopus : american journal of science [Row 2599, on row Scopus 1245]
+Process 2015 comparing to 2600 data
+[MATCH] Data 2015 on scopus : economic journal [Row 2601, on row Scopus 504]
+[MATCH] Data 2011 on scopus : american journal of science [Row 2599, on row Scopus 894]
+Process 2011 comparing to 2600 data
+[MATCH] Data 2011 on scopus : economic journal [Row 2601, on row Scopus 287]
+[MATCH] Data 2010 on scopus : texas law review [Row 2792, on row Scopus 1125]
+Process 2009 comparing to 3100 data
+Process 2010 comparing to 2800 data
+Process 2014 comparing to 2500 data
+Process 2012 comparing to 2500 data
+Process 2013 comparing to 600 data
+Process 2014 comparing to 600 data
+[MATCH] Data 2013 on scopus : american journal of sociology [Row 2446, on row Scopus 247]
+Process 2013 comparing to 2450 data
+Process 2012 : Record 614 recorded in scopus
+Process 2015 comparing to 2650 data
+Process 2011 comparing to 2650 data
+[MATCH] Data 2010 on scopus : journal of finance [Row 2836, on row Scopus 29]
+Process 2009 comparing to 3150 data
+Process 2010 comparing to 2850 data
+Process 2010 comparing to 700 data
+Process 2011 comparing to 650 data
+Process 2014 comparing to 2550 data
+Process 2012 comparing to 2550 data
+[MATCH] Data 2010 on scopus : studia linguistica [Row 2872, on row Scopus 4788]
+Process 2013 comparing to 2500 data
+Process 2015 comparing to 2700 data
+Process 2011 comparing to 2700 data
+Process 2009 comparing to 3200 data
+Process 2010 comparing to 2900 data
+Process 2013 : Record 614 recorded in scopus
+Process 2014 : Record 614 recorded in scopus
+[MATCH] Data 2014 on scopus : american journal of science [Row 2599, on row Scopus 1145]
+[MATCH] Data 2012 on scopus : american journal of science [Row 2599, on row Scopus 1080]
+Process 2014 comparing to 2600 data
+[MATCH] Data 2014 on scopus : economic journal [Row 2601, on row Scopus 232]
+Process 2012 comparing to 2600 data
+[MATCH] Data 2012 on scopus : economic journal [Row 2601, on row Scopus 318]
+Process 2013 comparing to 2550 data
+Process 2015 comparing to 2750 data
+Process 2009 comparing to 3250 data
+Process 2011 comparing to 2750 data
+Process 2010 comparing to 2950 data
+Process 2014 comparing to 2650 data
+Process 2012 comparing to 2650 data
+[MATCH] Data 2013 on scopus : american journal of science [Row 2599, on row Scopus 1020]
+Process 2013 comparing to 2600 data
+[MATCH] Data 2013 on scopus : economic journal [Row 2601, on row Scopus 303]
+[MATCH] Data 2015 on scopus : texas law review [Row 2792, on row Scopus 1489]
+Process 2009 comparing to 3300 data
+[MATCH] Data 2011 on scopus : texas law review [Row 2792, on row Scopus 1048]
+Process 2015 comparing to 2800 data
+Process 2011 comparing to 2800 data
+Process 2015 comparing to 650 data
+Process 2010 comparing to 3000 data
+Process 2009 : Record 789 recorded in scopus
+[MATCH] Data 2009 on scopus : annals of statistics [Row 3338, on row Scopus 150]
+[MATCH] Data 2010 on scopus : acta mathematica [Row 3018, on row Scopus 56]
+Process 2014 comparing to 2700 data
+Process 2012 comparing to 2700 data
+[MATCH] Data 2015 on scopus : journal of finance [Row 2836, on row Scopus 31]
+Process 2009 comparing to 3350 data
+[MATCH] Data 2011 on scopus : journal of finance [Row 2836, on row Scopus 23]
+Process 2013 comparing to 2650 data
+Process 2015 comparing to 2850 data
+Process 2011 comparing to 2850 data
+Process 2010 comparing to 3050 data
+[MATCH] Data 2015 on scopus : studia linguistica [Row 2872, on row Scopus 10660]
+[MATCH] Data 2011 on scopus : studia linguistica [Row 2872, on row Scopus 3294]
+Process 2009 comparing to 3400 data
+Process 2014 comparing to 2750 data
+Process 2012 comparing to 2750 data
+[MATCH] Data 2009 on scopus : management science [Row 3409, on row Scopus 272]
+[MATCH] Data 2009 on scopus : population trends [Row 3412, on row Scopus 13215]
+Process 2009 comparing to 800 data
+Process 2013 comparing to 2700 data
+Process 2015 comparing to 2900 data
+Process 2010 comparing to 3100 data
+Process 2011 comparing to 2900 data
+Process 2012 comparing to 650 data
+Process 2009 comparing to 3450 data
+[MATCH] Data 2014 on scopus : texas law review [Row 2792, on row Scopus 2100]
+[MATCH] Data 2012 on scopus : texas law review [Row 2792, on row Scopus 2436]
+Process 2014 comparing to 2800 data
+Process 2012 comparing to 2800 data
+Process 2013 comparing to 2750 data
+Process 2015 comparing to 2950 data
+Process 2010 comparing to 3150 data
+Process 2011 comparing to 2950 data
+Process 2009 comparing to 3500 data
+[MATCH] Data 2014 on scopus : journal of finance [Row 2836, on row Scopus 12]
+[MATCH] Data 2012 on scopus : journal of finance [Row 2836, on row Scopus 11]
+[MATCH] Data 2009 on scopus : wind engineering [Row 3513, on row Scopus 8302]
+Process 2014 comparing to 2850 data
+Process 2012 comparing to 2850 data
+[MATCH] Data 2013 on scopus : texas law review [Row 2792, on row Scopus 1702]
+Process 2013 comparing to 650 data
+Process 2010 comparing to 3200 data
+Process 2014 comparing to 650 data
+Process 2015 comparing to 3000 data
+Process 2013 comparing to 2800 data
+Process 2009 comparing to 3550 data
+[MATCH] Data 2014 on scopus : studia linguistica [Row 2872, on row Scopus 6349]
+[MATCH] Data 2012 on scopus : studia linguistica [Row 2872, on row Scopus 8474]
+Process 2011 comparing to 3000 data
+[MATCH] Data 2015 on scopus : acta mathematica [Row 3018, on row Scopus 115]
+[MATCH] Data 2011 on scopus : acta mathematica [Row 3018, on row Scopus 111]
+Process 2010 comparing to 750 data
+Process 2014 comparing to 2900 data
+Process 2012 comparing to 2900 data
+[MATCH] Data 2013 on scopus : journal of finance [Row 2836, on row Scopus 19]
+Process 2011 comparing to 700 data
+sudo apt-get install tdsodbcProcess 2009 comparing to 3600 data
+Process 2010 comparing to 3250 data
+Process 2015 comparing to 3050 data
+Process 2013 comparing to 2850 data
+Process 2011 comparing to 3050 data
+[MATCH] Data 2009 on scopus : biochemical journal [Row 3620, on row Scopus 435]
+[MATCH] Data 2013 on scopus : studia linguistica [Row 2872, on row Scopus 13217]
+Process 2009 comparing to 3650 data
+Process 2014 comparing to 2950 data
+Process 2012 comparing to 2950 data
+Process 2010 comparing to 3300 data
+Process 2015 comparing to 3100 data
+Process 2011 comparing to 3100 data
+Process 2013 comparing to 2900 data
+[MATCH] Data 2010 on scopus : annals of statistics [Row 3338, on row Scopus 160]
+Process 2009 comparing to 3700 data
+Process 2010 comparing to 3350 data
+Process 2014 comparing to 3000 data
+Process 2012 comparing to 3000 data
+Process 2015 comparing to 3150 data
+Process 2011 comparing to 3150 data
+Process 2013 comparing to 2950 data
+[MATCH] Data 2014 on scopus : acta mathematica [Row 3018, on row Scopus 165]
+[MATCH] Data 2012 on scopus : acta mathematica [Row 3018, on row Scopus 125]
+Process 2009 comparing to 3750 data
+Process 2015 comparing to 700 data
+Process 2010 comparing to 3400 data
+Process 2014 comparing to 3050 data
+[MATCH] Data 2010 on scopus : management science [Row 3409, on row Scopus 300]
+Process 2012 comparing to 3050 data
+[MATCH] Data 2010 on scopus : population trends [Row 3412, on row Scopus 11322]
+Process 2015 comparing to 3200 data
+Process 2009 comparing to 850 data
+Process 2011 comparing to 3200 data
+Process 2009 comparing to 3800 data
+Process 2013 comparing to 3000 data
+[MATCH] Data 2013 on scopus : acta mathematica [Row 3018, on row Scopus 159]
+Process 2010 comparing to 3450 data
+Process 2014 comparing to 3100 data
+Process 2012 comparing to 3100 data
+Process 2009 comparing to 3850 data
+Process 2015 comparing to 3250 data
+[MATCH] Data 2009 on scopus : coastal engineering [Row 3855, on row Scopus 1030]
+Process 2011 comparing to 3250 data
+Process 2013 comparing to 3050 data
+Process 2010 comparing to 3500 data
+Process 2010 : Record 789 recorded in scopus
+[MATCH] Data 2010 on scopus : wind engineering [Row 3513, on row Scopus 8612]
+Process 2009 comparing to 3900 data
+Process 2012 comparing to 700 data
+Process 2014 comparing to 3150 data
+Process 2012 comparing to 3150 data
+Process 2015 comparing to 3300 data
+Process 2011 comparing to 3300 data
+Process 2013 comparing to 3100 data
+Process 2010 comparing to 3550 data
+Process 2009 comparing to 3950 data
+[MATCH] Data 2015 on scopus : annals of statistics [Row 3338, on row Scopus 163]
+[MATCH] Data 2011 on scopus : annals of statistics [Row 3338, on row Scopus 137]
+Process 2015 comparing to 3350 data
+Process 2014 comparing to 3200 data
+Process 2012 comparing to 3200 data
+Process 2011 comparing to 3350 data
+Process 2010 comparing to 800 data
+Process 2013 comparing to 3150 data
+Process 2010 comparing to 3600 data
+Process 2009 comparing to 4000 data
+Process 2013 comparing to 700 data
+Process 2014 comparing to 700 data
+[MATCH] Data 2009 on scopus : entomologia generalis [Row 4013, on row Scopus 9151]
+[MATCH] Data 2010 on scopus : economic journal [Row 3620, on row Scopus 453]
+Process 2015 comparing to 3400 data
+[MATCH] Data 2009 on scopus : jama internal medicine [Row 4039, on row Scopus 149]
+Process 2014 comparing to 3250 data
+[MATCH] Data 2015 on scopus : management science [Row 3409, on row Scopus 333]
+Process 2011 comparing to 3400 data
+[MATCH] Data 2015 on scopus : airline business [Row 3412, on row Scopus 24064]
+Process 2012 comparing to 3250 data
+Process 2009 comparing to 4050 data
+Process 2011 comparing to 750 data
+[MATCH] Data 2011 on scopus : management science [Row 3409, on row Scopus 510]
+[MATCH] Data 2011 on scopus : population trends [Row 3412, on row Scopus 13399]
+Process 2010 comparing to 3650 data
+Process 2013 comparing to 3200 data
+Process 2015 comparing to 3450 data
+Process 2009 comparing to 4100 data
+Process 2014 comparing to 3300 data
+Process 2011 comparing to 3450 data
+Process 2012 comparing to 3300 data
+Process 2010 comparing to 3700 data
+Process 2013 comparing to 3250 data
+Process 2009 comparing to 4150 data
+[MATCH] Data 2014 on scopus : annals of statistics [Row 3338, on row Scopus 211]
+Process 2015 comparing to 3500 data
+[MATCH] Data 2012 on scopus : annals of statistics [Row 3338, on row Scopus 130]
+Process 2009 comparing to 900 data
+Process 2014 comparing to 3350 data
+Process 2011 comparing to 3500 data
+[MATCH] Data 2015 on scopus : indian pediatrics [Row 3513, on row Scopus 9467]
+Process 2010 comparing to 3750 data
+Process 2012 comparing to 3350 data
+[MATCH] Data 2009 on scopus : economic journal [Row 4179, on row Scopus 611]
+[MATCH] Data 2009 on scopus : journal of supply chain management [Row 4181, on row Scopus 1890]
+[MATCH] Data 2009 on scopus : financial management [Row 4187, on row Scopus 1504]
+[MATCH] Data 2011 on scopus : indian pediatrics [Row 3513, on row Scopus 8738]
+Process 2013 comparing to 3300 data
+Process 2009 comparing to 4200 data
+Process 2015 comparing to 3550 data
+Process 2010 comparing to 3800 data
+Process 2011 comparing to 3550 data
+Process 2014 comparing to 3400 data
+Process 2012 comparing to 3400 data
+Process 2015 comparing to 750 data
+[MATCH] Data 2014 on scopus : management science [Row 3409, on row Scopus 384]
+[MATCH] Data 2014 on scopus : population trends [Row 3412, on row Scopus 13748]
+[MATCH] Data 2012 on scopus : management science [Row 3409, on row Scopus 503]
+[MATCH] Data 2013 on scopus : annals of statistics [Row 3338, on row Scopus 124]
+[MATCH] Data 2012 on scopus : population trends [Row 3412, on row Scopus 12721]
+Process 2009 comparing to 4250 data
+Process 2013 comparing to 3350 data
+Process 2015 comparing to 3600 data
+Process 2010 comparing to 3850 data
+[MATCH] Data 2010 on scopus : coastal engineering [Row 3855, on row Scopus 1218]
+Process 2011 comparing to 3600 data
+[MATCH] Data 2009 on scopus : structural safety [Row 4289, on row Scopus 806]
+Process 2014 comparing to 3450 data
+Process 2012 comparing to 3450 data
+[MATCH] Data 2015 on scopus : economic journal [Row 3620, on row Scopus 504]
+Process 2009 comparing to 4300 data
+[MATCH] Data 2011 on scopus : economic journal [Row 3620, on row Scopus 287]
+Process 2013 comparing to 3400 data
+[MATCH] Data 2013 on scopus : management science [Row 3409, on row Scopus 434]
+[MATCH] Data 2013 on scopus : population trends [Row 3412, on row Scopus 12211]
+Process 2015 comparing to 3650 data
+Process 2010 comparing to 3900 data
+Process 2011 comparing to 3650 data
+Process 2009 comparing to 4350 data
+Process 2014 comparing to 3500 data
+Process 2012 comparing to 3500 data
+[MATCH] Data 2014 on scopus : wind engineering [Row 3513, on row Scopus 9341]
+[MATCH] Data 2012 on scopus : indian pediatrics [Row 3513, on row Scopus 9700]
+Process 2013 comparing to 3450 data
+Process 2012 comparing to 750 data
+Process 2011 : Record 789 recorded in scopus
+Process 2010 comparing to 3950 data
+Process 2015 comparing to 3700 data
+Process 2009 comparing to 4400 data
+Process 2010 comparing to 850 data
+Process 2011 comparing to 3700 data
+Process 2014 comparing to 3550 data
+Process 2012 comparing to 3550 data
+Process 2009 comparing to 4450 data
+Process 2010 comparing to 4000 data
+Process 2013 comparing to 3500 data
+Process 2015 comparing to 3750 data
+[MATCH] Data 2010 on scopus : entomologia generalis [Row 4013, on row Scopus 12899]
+[MATCH] Data 2013 on scopus : indian pediatrics [Row 3513, on row Scopus 8395]
+Process 2011 comparing to 3750 data
+[MATCH] Data 2009 on scopus : molecular vision [Row 4482, on row Scopus 3340]
+Process 2014 comparing to 3600 data
+[MATCH] Data 2010 on scopus : jama internal medicine [Row 4039, on row Scopus 185]
+Process 2012 comparing to 3600 data
+Process 2011 comparing to 800 data
+Process 2010 comparing to 4050 data
+Process 2009 comparing to 4500 data
+Process 2013 comparing to 750 data
+Process 2014 comparing to 750 data
+[MATCH] Data 2014 on scopus : economic journal [Row 3620, on row Scopus 232]
+Process 2015 comparing to 3800 data
+Process 2013 comparing to 3550 data
+[MATCH] Data 2012 on scopus : economic journal [Row 3620, on row Scopus 318]
+Process 2011 comparing to 3800 data
+Process 2009 comparing to 950 data
+
+

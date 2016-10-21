@@ -3,11 +3,7 @@ import csv
 from filtering import *
 import sys
 import datetime, time
-from pprint import pprint
-# yang mau ditrace :
-# pub_id (1), pub_detilkodepub(2), pub_judul(15), pub_kata_kunci(16), pub_abstraksi(19), pub_halaman(22),
-CURSOR_UP_ONE = '\x1b[1A'
-ERASE_LINE = '\x1b[2K'
+
 
 def classify_SIT_JITT():
     for idx, data in enumerate(bigArray):
@@ -52,30 +48,12 @@ def classify_SIT_JITT():
 
 def classify_Scopus(year):
 
+    initiate(year)
+
     startTime = time.time()
 
-    filename = 'result2/'
-    if year == 2015:
-        scopusDatas = scopus2015
-        filename += 'Log_2015.txt'
-    elif year == 2014:
-        scopusDatas = scopus2014
-        filename += 'Log_2014.txt'
-    elif year == 2013:
-        scopusDatas = scopus2013
-        filename += 'Log_2013.txt'
-    elif year == 2012:
-        scopusDatas = scopus2012
-        filename += 'Log_2012.txt'
-    elif year == 2011:
-        scopusDatas = scopus2011
-        filename += 'Log_2011.txt'
-    elif year == 2010:
-        scopusDatas = scopus2010
-        filename += 'Log_2010.txt'
-    elif year == 2009:
-        scopusDatas = scopus2009
-        filename +='Log_2009.txt'
+    scopusDatas = dataDatabase
+    filename = 'result2/'+'Log_'+str(year)+'.txt'
 
     log = open(filename, 'w')
 
@@ -116,8 +94,6 @@ def classify_Scopus(year):
                         break
                 else :
                     ptr += 1
-
-            time.sleep(10)
 
             # print ('%d / %d document are excluded from filtering'%(ptr, len(scopusDatas)) )
             # if classified is False :

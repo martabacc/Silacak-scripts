@@ -4,13 +4,7 @@ import time
 import datetime
 
 
-scopus2015 = []
-scopus2014 = []
-scopus2013 = []
-scopus2012 = []
-scopus2011 = []
-scopus2010 = []
-scopus2009 = []
+dataDatabase=[]
 
 
 bigArray= []
@@ -25,43 +19,19 @@ def mapToArray(strings, pushToThisPlease=[]):
     for str in strings:
         pushToThisPlease.append(str)
 
-def initiate():
-    with open('scopus/scimagojr_2015.csv', 'rU') as csvf:
-        testreader = csv.reader(csvf, delimiter=';', quotechar='|')
-        for row in testreader:
-            scopus2015.append(row)
+def initiate(year):
+    filePath = 'scopus/scimagojr_' + str(year)+'.csv'
 
-    with open('scopus/scimagojr_2014.csv', 'rU') as csvf:
+    with open(filePath, 'rU') as csvf:
         testreader = csv.reader(csvf, delimiter=';', quotechar='|')
         for row in testreader:
-            scopus2014.append(row)
-    with open('scopus/scimagojr_2013.csv', 'rU') as csvf:
-        testreader = csv.reader(csvf, delimiter=';', quotechar='|')
-        for row in testreader:
-            scopus2013.append(row)
-    with open('scopus/scimagojr_2012.csv', 'rU') as csvf:
-        testreader = csv.reader(csvf, delimiter=';', quotechar='|')
-        for row in testreader:
-            scopus2012.append(row)
-    with open('scopus/scimagojr_2011.csv', 'rU') as csvf:
-        testreader = csv.reader(csvf, delimiter=';', quotechar='|')
-        for row in testreader:
-            scopus2011.append(row)
-    with open('scopus/scimagojr_2010.csv', 'rU') as csvf:
-        testreader = csv.reader(csvf, delimiter=';', quotechar='|')
-        for row in testreader:
-            scopus2010.append(row)
-    with open('scopus/scimagojr_2009.csv', 'rU') as csvf:
-        testreader = csv.reader(csvf, delimiter=';', quotechar='|')
-        for row in testreader:
-            scopus2009.append(row)
+            dataDatabase.append(row)
 
-
-    # adding database data
-    with open('all_data.csv', 'r') as csvfile:
-        testreader = csv.reader(csvfile, delimiter=';', quotechar='"')
-        for row in testreader:
-            bigArray.append(row)
+        # adding database data
+        with open('all_data.csv', 'r') as csvfile:
+            testreader = csv.reader(csvfile, delimiter=';', quotechar='"')
+            for row in testreader:
+                bigArray.append(row)
 
 def levenshtein(s1, s2):
     if len(s1) < len(s2):
@@ -95,10 +65,10 @@ def timeToStr(t):
 # only for debugging
 
 def returnStartPoint(year):
-    if year==2009 : return 2550
-    elif year==2010 : return 2300
-    elif year==2011 :return 2150
-    elif year==2012 : return 2050
-    elif year==2013 : return 2000
-    elif year==2014 : return 2050
-    elif year == 2015 : return 2150
+    if year==2009 : return 4500
+    elif year==2010 : return 4050
+    elif year==2011 :return 3800
+    elif year==2012 : return 3600
+    elif year==2013 : return 3550
+    elif year==2014 : return 3600
+    elif year == 2015 : return 3800
