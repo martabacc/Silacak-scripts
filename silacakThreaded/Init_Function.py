@@ -20,7 +20,6 @@ def mapToArray(strings, pushToThisPlease=[]):
         pushToThisPlease.append(str)
 
 def initiate(year):
-
     filePath = 'scopus/scimagojr_' + str(year)+'.csv'
 
     with open(filePath, 'rU') as csvf:

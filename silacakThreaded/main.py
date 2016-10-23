@@ -1,5 +1,4 @@
 from classify_function import *
-
 from threading import *
 from database import *
 import threading
@@ -15,6 +14,8 @@ class myThread (threading.Thread):
         self.db = DB()
 
         initiate(self.year)
+        self.workQueue = []
+        for idx,data in enumerate(bigArray): workQueue.append((idx,-1))
 
     def run(self):
         print "Starting " + self.name

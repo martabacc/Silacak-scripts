@@ -1,7 +1,4 @@
-import StringIO
-import csv
 from Init_Function import *
-import sys
 import datetime, time
 
 '''
@@ -114,9 +111,7 @@ def classify_Scopus(index):
                 # log.write('\nJudul di Scopus : '+scopusTitle)
                 break
 
-    log.close()
+    # log.close()
     #return to the main process
     if classified :
         return 1
-    else:
-        return 0
