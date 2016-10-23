@@ -4,14 +4,14 @@ import time
 import datetime
 
 
-dataDatabase=[]
+scopusArray=[]
 
 
 bigArray= []
 parsedWords = []
 
 keyword_JITT = ['international','journal']
-keyword_SIT = ['international','seminar','conference']
+keyword_SITT = ['international','seminar','conference']
 
 
 def mapToArray(strings, pushToThisPlease=[]):
@@ -19,20 +19,20 @@ def mapToArray(strings, pushToThisPlease=[]):
     for str in strings:
         pushToThisPlease.append(str)
 
-def initiate(year)
+def initiate(year):
 
     filePath = 'scopus/scimagojr_' + str(year)+'.csv'
 
     with open(filePath, 'rU') as csvf:
         testreader = csv.reader(csvf, delimiter=';', quotechar='|')
         for row in testreader:
-            dataDatabase.append(row)
+            scopusArray.append(row)
 
-        # adding database data
-        with open('all_data.csv', 'r') as csvfile:
-            testreader = csv.reader(csvfile, delimiter=';', quotechar='"')
-            for row in testreader:
-                bigArray.append(row)
+    # adding database data
+    with open('all_data.csv', 'r') as csvfile:
+        testreader = csv.reader(csvfile, delimiter=';', quotechar='"')
+        for row in testreader:
+            bigArray.append(row)
 
 def levenshtein(s1, s2):
     if len(s1) < len(s2):
@@ -73,3 +73,5 @@ def returnStartPoint(year):
     elif year==2013 : return 2000
     elif year==2014 : return 2050
     elif year == 2015 : return 2150
+
+def returnDataLen(year): return len(bigArray)

@@ -1,9 +1,8 @@
-from test import *
-import thread
+from classify_function import *
 
-import Queue
+from threading import *
+from database import *
 import threading
-import time
 
 exitFlag = 0
 
@@ -13,27 +12,30 @@ class myThread (threading.Thread):
         self.threadID = threadID
         self.name = name
         self.year = year
+        self.db = DB()
+
+        initiate(self.year)
 
     def run(self):
         print "Starting " + self.name
-
-        classify_Scopus(self.year)
+        for idx, data in enumerate(bigArray) : classify_SIT_JITT()
         print "Exiting " + self.name
 
+    def filter1(self, idx):
 
 
 threadList = ["Scopus 2015","Scopus 2014","Scopus 2013","Scopus 2012","Scopus 2011","Scopus 2010","Scopus 2009"]
+
 year = [2015,2014,2013,2012,2011,2010,2009]
 queueLock = threading.Lock()
+workQueue = []
 threads = []
 threadID = 1
 
 
 if __name__ == "__main__":
 
-    # counting the time
 
-    initiate()
     # pushing datas to array, declare comparing array
     queueLock = threading.Lock()
 
