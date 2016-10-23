@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72ee115e-4f8a-48f8-8557-ca98e3109ffb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../silacak/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../silacak/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../silacak/Process Backup/1.txt" afterPath="$PROJECT_DIR$/../silacak/Process Backup/1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../silacak/database.py" afterPath="$PROJECT_DIR$/../silacak/database.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../silacak/filtering.py" afterPath="$PROJECT_DIR$/../silacak/filtering.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../silacak/main.py" afterPath="$PROJECT_DIR$/../silacak/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../silacak/result/Log_2012.txt" afterPath="$PROJECT_DIR$/../silacak/result/Log_2012.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../silacak/test.py" afterPath="$PROJECT_DIR$/../silacak/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,8 +43,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+            <state relative-caret-position="486">
+              <caret line="80" column="42" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="42" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <element signature="e#114#1316#0" expanded="false" />
@@ -393,7 +387,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1354" height="739" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -401,7 +395,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07867647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -682,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+        <state relative-caret-position="486">
+          <caret line="80" column="42" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="42" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <element signature="e#114#1316#0" expanded="false" />
