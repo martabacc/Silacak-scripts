@@ -12,14 +12,13 @@ class P(Process):
         super(P, self).__init__()
         self.name = name
         self.year = year
-        self.len = 15
         self.threads = []
 
     def run(self):
         self.QF1 = Q()
         self.QF2 = Q()
         initiate(self.year)
-        for idx in range(15172, 15182): self.QF1.enqueue(idx)
+        for idx in range(len(bigArray)): self.QF1.enqueue(idx)
 
         t = threading.Thread(target = self.F1 )
         self.threads.append(t)
@@ -30,7 +29,6 @@ class P(Process):
         t = threading.Thread(target = self.F2 )
         self.threads.append(t)
         t.start()
-
 
         for t in self.threads: t.join()
         print "Exiting " + self.name
@@ -43,7 +41,8 @@ class P(Process):
             now = self.QF1.front()
             result = classify_SIT_JITT(now)
             print "F1 now on " + str(now)
-            updateRow( now ,result)
+            # TODOs
+            updateRow( bigArray[now][0] ,result)
             self.QF2.enqueue(now)
             self.QF1.dequeue()
 
@@ -56,7 +55,8 @@ class P(Process):
                 result = classify_Scopus(now)
 
                 if result == 1:
-                    updateRow( now ,1)
+                    # TODO
+                    updateRow( bigArray[now][0] ,1)
 
                 self.QF2.dequeue()
 
