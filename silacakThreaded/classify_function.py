@@ -41,8 +41,6 @@ def classify_SIT_JITT(index):
 
     tmp = []
     for x in keyword_JITT : tmp.append(x)
-    print words
-    print tmp
     for word in words:
         ptr = 0
         # Jurnal Internasional tidak terindeks
@@ -57,26 +55,26 @@ def classify_SIT_JITT(index):
     if classified == 0:
         tmp2 = []
         for x in keyword_SITT : tmp2.append(x)
-        print tmp2
         for word in words:
             # Jurnal Internasional tidak terindeks
             if str(word) in tmp2 :
                 tmp2.remove(word)
 
             if len(tmp2) <= 1 :
-                print 'masuk sini syit'
                 classified = 4
                 break
 
-    if classified == 0:
-        print detilkodepub
-        if int(detilkodepub) == 2:
-            # jurnal nasional tidak terakreditasi
-            classified = 6
-        elif int(detilkodepub) == 6:
-            # seminar nasional lainnya / tidak terindeks
-            classified = 7
-        else : classified = 8
+    try:
+        if classified == 0:
+
+            if int(detilkodepub) == 2:
+                # jurnal nasional tidak terakreditasi
+                classified = 6
+            elif int(detilkodepub) == 6:
+                # seminar nasional lainnya / tidak terindeks
+                classified = 7
+    except :
+        if classified == 0: classified = 8
 
 #     return value to the main process
     return classified
