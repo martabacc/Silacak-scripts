@@ -19,10 +19,11 @@ class P(Process):
         self.QF2 = Q()
         initiate(self.year)
         for idx in range(len(bigArray)): self.QF1.enqueue(idx)
-
-        t = threading.Thread(target = self.F1 )
-        self.threads.append(t)
-        t.start()
+gi
+        if self.year == 2019 :
+            t = threading.Thread(target = self.F1 )
+            self.threads.append(t)
+            t.start()
 
         time.sleep(delay)
 

@@ -31,7 +31,6 @@ def classify_SIT_JITT(index):
     data[14] = data[14].lower()
     katakunci = data[15].lower()
     abstraksi = data[18].lower()
-    issue = data[21]
     keterangan = data[23].lower()
 
     # already mapped data
@@ -105,10 +104,6 @@ def classify_Scopus(index):
 
             elif levenshtein(scopusTitle , judul) <= maxDistance :
                 classified = True
-                # print '[MATCH] Data %d on scopus : %s [Row %d, on row Scopus %d]' %(year, scopusTitle, idx, idx2)
-                # log.write('\nData '+str(year)+' on scopus : [Row '+str(idx)+', on row Scopus '+str(idx2))
-                # log.write('\nJudul Jurnal : '+judul)
-                # log.write('\nJudul di Scopus : '+scopusTitle)
                 break
 
     # log.close()
