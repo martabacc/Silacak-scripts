@@ -19,8 +19,8 @@ class P(Process):
         self.QF2 = Q()
         initiate(self.year)
         for idx in range(len(bigArray)): self.QF1.enqueue(idx)
-gi
-        if self.year == 2019 :
+
+        if int(self.year) == 2009 :
             t = threading.Thread(target = self.F1 )
             self.threads.append(t)
             t.start()

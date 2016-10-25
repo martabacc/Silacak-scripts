@@ -24,7 +24,7 @@ def classify_SIT_JITT(index):
     '''
 
     data = bigArray[index]
-    classified = 8
+    classified = 0
     id = data[0]
     detilkodepub = data[1]
     judul = data[14].lower()
@@ -39,33 +39,44 @@ def classify_SIT_JITT(index):
     mapToArray(abstraksi, words)
     mapToArray(keterangan, words)
 
-    tmp = keyword_JITT
-    for idx2, word in enumerate(words):
-        ptr=0
+    tmp = []
+    for x in keyword_JITT : tmp.append(x)
+    print words
+    print tmp
+    for word in words:
+        ptr = 0
         # Jurnal Internasional tidak terindeks
-        for x in tmp:
-            if x == word:
-                ptr+=1
-                tmp.remove(x)
-        if ptr >= 2 : classified = 3
+        if str(word) in tmp:
+            tmp.remove(word)
+
+        if len(tmp)  == 0:
+            classified = 3
+            break
 
     # checking SITT
-    if classified == 8:
-        tmp = keyword_SITT
-        ptr=0
-        for x in tmp:
-            if x == word:
-                ptr+=1
-                tmp.remove(x)
-        if ptr >= 2 : classified = 4
+    if classified == 0:
+        tmp2 = []
+        for x in keyword_SITT : tmp2.append(x)
+        print tmp2
+        for word in words:
+            # Jurnal Internasional tidak terindeks
+            if str(word) in tmp2 :
+                tmp2.remove(word)
 
-    if classified == 8:
-        if detilkodepub == 2:
+            if len(tmp2) <= 1 :
+                print 'masuk sini syit'
+                classified = 4
+                break
+
+    if classified == 0:
+        print detilkodepub
+        if int(detilkodepub) == 2:
             # jurnal nasional tidak terakreditasi
             classified = 6
-        elif detilkodepub == 6:
+        elif int(detilkodepub) == 6:
             # seminar nasional lainnya / tidak terindeks
             classified = 7
+        else : classified = 8
 
 #     return value to the main process
     return classified
