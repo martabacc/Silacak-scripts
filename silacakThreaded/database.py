@@ -10,7 +10,7 @@ def updateRow(index, classifiedValue):
 
     updateQuery = "UPDATE "+ DB_TABLE_NAME + " set " + DB_ROW_NAME + " = " + str(classifiedValue) + " where pub_id= " + str(index)
     print updateQuery
-    # cursor.execute_non_query(updateQuery)
+    cursor.execute_non_query(updateQuery)
 
 def closeConn() : cursor.close()
 
