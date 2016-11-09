@@ -49,6 +49,7 @@ class P(Process):
         # self.threads.append(t)
         # t.start()
 
+
         for t in self.threads:
             t.join()
         print "Exiting " + self.name
@@ -82,9 +83,6 @@ class P(Process):
                     print self.year
 
                     updateRow( bigArray[now][0] ,result)
-
-                self.QF1.dequeue()
-
 
     def F2(self):
         print "Starting F2 " + self.name
