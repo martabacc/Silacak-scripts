@@ -1,3 +1,4 @@
+
 from Init_Function import *
 import datetime, time
 
@@ -48,7 +49,7 @@ def classify_SIT_JITT(index):
             tmp.remove(word)
 
         if len(tmp)  == 0:
-            classified = 3
+            classified = 10
             break
 
     # checking SITT
@@ -56,12 +57,12 @@ def classify_SIT_JITT(index):
         tmp2 = []
         for x in keyword_SITT : tmp2.append(x)
         for word in words:
-            # Jurnal Internasional tidak terindeks
+            # Seminar Internasional tidak terindeks
             if str(word) in tmp2 :
                 tmp2.remove(word)
 
             if len(tmp2) <= 1 :
-                classified = 4
+                classified = 11
                 break
 
     try:
@@ -69,12 +70,12 @@ def classify_SIT_JITT(index):
 
             if int(detilkodepub) == 2:
                 # jurnal nasional tidak terakreditasi
-                classified = 6
+                classified = 13
             elif int(detilkodepub) == 6:
                 # seminar nasional lainnya / tidak terindeks
-                classified = 7
+                classified = 14
     except :
-        if classified == 0: classified = 8
+        if classified == 0: classified = 7
 
 #     return value to the main process
     return classified
@@ -89,7 +90,6 @@ def classify_Scopus(index):
     startTime = time.time()
 
     scopusDatas = scopusArray
-    # filename = 'result2/'+'Log_'+str(year)+'.txt'
 
     # log = open(filename, 'a')
     data = bigArray[index]
@@ -98,24 +98,27 @@ def classify_Scopus(index):
 
     id = data[0]
     detilkodepub = data[1]
-    judul = data[14].lower()
+    # judul = data[14].lower()
+    # yang dibandingkan ternyata keterangannya sajaaa ~
+
+    judul = data[23].lower()
     issue = data[21]
+    detilkodepub = data[1]
     # print 'Data on database : %s' % (judul)
     classified = False
     for idx2, scopusData in enumerate(scopusDatas):
-        scopusData = scopusDatas[idx2]
         titleIndex = 0
         scopusTitle = str(scopusData[titleIndex]).lower()
 
         if abs( len(scopusTitle) - len(judul) ) < 15:
-            maxDistance = 10
-            if len(scopusTitle) <= 15 : maxDistance = 5
+            maxDistance = 5
+            if len(scopusTitle) <= 15 : maxDistance = 3
 
             elif levenshtein(scopusTitle , judul) <= maxDistance :
-                classified = True
-                break
+                print str(Pyear)+ ' '+ str(idx2) + ' ' + str(index)
+                if str(scopusData[1]) == 'journal':
+                    return 8
+                elif str(scopusData[1]) == 'conference':
+                    return 9
 
-    # log.close()
-    #return to the main process
-    if classified :
-        return 1
+    return 0

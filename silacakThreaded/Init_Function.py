@@ -6,6 +6,8 @@ import datetime
 
 scopusArray=[]
 
+Pyear = 0
+
 
 bigArray= []
 parsedWords = []
@@ -20,6 +22,8 @@ def mapToArray(strings, pushToThisPlease=[]):
         pushToThisPlease.append(str)
 
 def initiate(year):
+
+    Pyear = year
     filePath = 'scopus/scimagojr_' + str(year)+'.csv'
 
     with open(filePath, 'rU') as csvf:
@@ -32,6 +36,9 @@ def initiate(year):
         testreader = csv.reader(csvfile, delimiter=';', quotechar='"')
         for row in testreader:
             bigArray.append(row)
+
+def getyear():
+    return Pyear
 
 def levenshtein(s1, s2):
     if len(s1) < len(s2):

@@ -8,9 +8,10 @@ cursor = _mssql.connect(server=DB_HOST, user=DB_USER, password=DB_PASSWORD, data
 
 def updateRow(index, classifiedValue):
 
-    updateQuery = "UPDATE "+ DB_TABLE_NAME + " set " + DB_ROW_NAME + " = " + str(classifiedValue) + " where pub_id= " + str(index)
-    # print updateQuery
-    cursor.execute_non_query(updateQuery)
+    if classifiedValue != 0 :
+        updateQuery = "UPDATE "+ DB_TABLE_NAME + " set " + DB_ROW_NAME + " = " + str(classifiedValue) + " where pub_id= " + str(index)
+        print   updateQuery
+        cursor.execute_non_query(updateQuery)
 
 def closeConn() : cursor.close()
 
