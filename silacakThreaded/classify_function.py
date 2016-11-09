@@ -48,7 +48,7 @@ def classify_SIT_JITT(index):
             tmp.remove(word)
 
         if len(tmp)  == 0:
-            classified = 3
+            classified = 13
             break
 
     # checking SITT
@@ -61,7 +61,7 @@ def classify_SIT_JITT(index):
                 tmp2.remove(word)
 
             if len(tmp2) <= 1 :
-                classified = 4
+                classified = 14
                 break
 
     try:
@@ -69,12 +69,12 @@ def classify_SIT_JITT(index):
 
             if int(detilkodepub) == 2:
                 # jurnal nasional tidak terakreditasi
-                classified = 6
+                classified = 16
             elif int(detilkodepub) == 6:
                 # seminar nasional lainnya / tidak terindeks
-                classified = 7
+                classified = 17
     except :
-        if classified == 0: classified = 8
+        if classified == 0: classified = 7
 
 #     return value to the main process
     return classified

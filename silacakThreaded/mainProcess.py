@@ -22,25 +22,21 @@ class P(Process):
         initiate(self.year)
 
 
-        x = len(scopusArray)
-        print x
-        print x/2
-        print x/4
-        print int(x/2)
+        x = len(bigArray)
         time.sleep(5)
-        for idx in range( int(x/4) ): self.QF1.enqueue(idx)
+        for idx in range( x ): self.QF1.enqueue(idx)
         for idx in range( int(x/2) , int(x/2) ): self.QF2.enqueue(idx)
         for idx in range( int(x/2), int(0.75 * x)): self.QF3.enqueue(idx)
         for idx in range( int(0.75 * x) , x): self.QF4.enqueue(idx)
 
         t = threading.Thread(target = self.F1 )
         self.threads.append(t)
-        t = threading.Thread(target = self.F2 )
-        self.threads.append(t)
-        t = threading.Thread(target = self.F3 )
-        self.threads.append(t)
-        t = threading.Thread(target = self.F4 )
-        self.threads.append(t)
+        # t = threading.Thread(target = self.F2 )
+        # self.threads.append(t)
+        # t = threading.Thread(target = self.F3 )
+        # self.threads.append(t)
+        # t = threading.Thread(target = self.F4 )
+        # self.threads.append(t)
 
         for t in self.threads:
             t.start()
@@ -50,29 +46,29 @@ class P(Process):
 
         closeConn()
 
-    # def F1(self):
-    #     print "Starting F1 " + self.name
-    #     while self.QF1.isNotEmpty() :
-    #         now = self.QF1.front()
-    #         result = classify_SIT_JITT(now)
-    #         print "F1 now on " + str(now)
-    #         # TODOs
-    #         updateRow( bigArray[now][0] ,result)
-    #         self.QF2.enqueue(now)
-    #         self.QF1.dequeue()
-
     def F1(self):
         print "Starting F1 " + self.name
-        while self.QF1.isNotEmpty():
-            if self.QF1.isNotEmpty() :
-                now = self.QF1.front()
-                print "F1 now on " + str(now)
-                result = classify_Scopus(now)
-                if result == 1:
-                    # TODO
-                    updateRow( bigArray[now][0] ,1)
+        while self.QF1.isNotEmpty() :
+            now = self.QF1.front()
+            result = classify_SIT_JITT(now)
+            print "F1 now on " + str(now)
+            # TODOs
+            updateRow( bigArray[now][0] ,result)
+            self.QF2.enqueue(now)
+            self.QF1.dequeue()
 
-                self.QF1.dequeue()
+    # def F1(self):
+    #     print "Starting F1 " + self.name
+    #     while self.QF1.isNotEmpty():
+    #         if self.QF1.isNotEmpty() :
+    #             now = self.QF1.front()
+    #             print "F1 now on " + str(now)
+    #             result = classify_Scopus(now)
+    #             if result == 1:
+    #                 # TODO
+    #                 updateRow( bigArray[now][0] ,1)
+    #
+    #             self.QF1.dequeue()
 
 
     def F2(self):
@@ -119,11 +115,11 @@ class P(Process):
                 except : continue
 
 
-PList = ["Scopus 2015","Scopus 2014","Scopus 2013","Scopus 2012","Scopus 2011","Scopus 2010","Scopus 2009"]
-year = [2015,2014,2013,2012,2011,2010,2009]
+# PList = ["Scopus 2015","Scopus 2014","Scopus 2013","Scopus 2012","Scopus 2011","Scopus 2010","Scopus 2009"]
+# year = [2015,2014,2013,2012,2011,2010,2009]
 
-# PList = ["Scopus 2009"]
-# year = [2009]
+PList = ["Scopus 2009"]
+year = [2009]
 workQueue = []
 psx = []
 threadID = 1
